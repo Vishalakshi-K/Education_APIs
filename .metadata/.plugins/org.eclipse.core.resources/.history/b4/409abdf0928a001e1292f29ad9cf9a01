@@ -1,0 +1,5 @@
+package com.EducationJobpost.Api.Repo;
+
+public interface JobPostRepo {
+
+}

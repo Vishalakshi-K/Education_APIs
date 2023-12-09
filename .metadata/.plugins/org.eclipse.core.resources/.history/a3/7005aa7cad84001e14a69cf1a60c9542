@@ -1,0 +1,5 @@
+package com.Educationcontact.Api.Controller;
+
+public class ContactController {
+
+}

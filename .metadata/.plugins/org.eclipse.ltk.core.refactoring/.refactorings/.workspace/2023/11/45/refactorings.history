@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Online_Education_API-1&apos; to &apos;Online_Education_API1&apos;" description="Rename resource &apos;Online_Education_API-1&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Online_Education_API-1" name="Online_Education_API1" stamp="1699511127021" updateReferences="true"/>
+</session>

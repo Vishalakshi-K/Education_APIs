@@ -1,0 +1,5 @@
+package com.EducationQuery.Api.Controller;
+
+public class QueryController {
+
+}

@@ -1,0 +1,5 @@
+package com.educationcoursesvideos.Api.Controller;
+
+public class CoursesVideosController {
+
+}

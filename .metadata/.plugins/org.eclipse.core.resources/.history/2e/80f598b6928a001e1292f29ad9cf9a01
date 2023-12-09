@@ -1,0 +1,5 @@
+package com.EducationJobpost.Api.Controller;
+
+public class JobPostController {
+
+}

@@ -1,0 +1,5 @@
+package com.EducationJobpost.Api.Entity;
+
+public class JobPostEntity {
+
+}

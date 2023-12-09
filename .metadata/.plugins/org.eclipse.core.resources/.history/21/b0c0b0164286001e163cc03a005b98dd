@@ -1,0 +1,88 @@
+package com.educationcoursescontent.Api.Entity;
+
+import java.sql.Blob;
+import java.time.LocalDate;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+import org.hibernate.boot.jaxb.mapping.spi.JaxbLob;
+
+@Entity
+public class CoursesContentEntity {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	public long coursecontentId;
+	public String coursedescription;
+	public JaxbLob coursedocument;
+	public String coursesection;
+	public long courseid;
+	public LocalDate createddate;
+	public LocalDate updateddate;
+	public long getCoursecontentId() {
+		return coursecontentId;
+	}
+	public void setCoursecontentId(long coursecontentId) {
+		this.coursecontentId = coursecontentId;
+	}
+	public String getCoursedescription() {
+		return coursedescription;
+	}
+	public void setCoursedescription(String coursedescription) {
+		this.coursedescription = coursedescription;
+	}
+	public JaxbLob getCoursedocument() {
+		return coursedocument;
+	}
+	public void setCoursedocument(JaxbLob coursedocument) {
+		this.coursedocument = coursedocument;
+	}
+	public String getCoursesection() {
+		return coursesection;
+	}
+	public void setCoursesection(String coursesection) {
+		this.coursesection = coursesection;
+	}
+	public long getCourseid() {
+		return courseid;
+	}
+	public void setCourseid(long courseid) {
+		this.courseid = courseid;
+	}
+	public LocalDate getCreateddate() {
+		return createddate;
+	}
+	public void setCreateddate(LocalDate createddate) {
+		this.createddate = createddate;
+	}
+	public LocalDate getUpdateddate() {
+		return updateddate;
+	}
+	public void setUpdateddate(LocalDate updateddate) {
+		this.updateddate = updateddate;
+	}
+	public CoursesContentEntity(long coursecontentId, Blob coursedescription, JaxbLob coursedocument,
+			String coursesection, long courseid, LocalDate createddate, LocalDate updateddate) {
+		super();
+		this.coursecontentId = coursecontentId;
+		this.coursedescription = coursedescription;
+		this.coursedocument = coursedocument;
+		this.coursesection = coursesection;
+		this.courseid = courseid;
+		this.createddate = createddate;
+		this.updateddate = updateddate;
+	}
+	public CoursesContentEntity() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	public String toString() {
+		return "CoursesContentEntity [coursecontentId=" + coursecontentId + ", coursedescription=" + coursedescription
+				+ ", coursedocument=" + coursedocument + ", coursesection=" + coursesection + ", courseid=" + courseid
+				+ ", createddate=" + createddate + ", updateddate=" + updateddate + "]";
+	}
+}

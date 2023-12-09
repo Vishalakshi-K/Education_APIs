@@ -1,0 +1,5 @@
+package com.educationcoursesvideos.Api.Entity;
+
+public class CoursesVideosEntity {
+
+}

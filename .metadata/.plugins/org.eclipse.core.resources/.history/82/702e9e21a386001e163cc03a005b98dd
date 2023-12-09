@@ -1,0 +1,5 @@
+package com.educationcoursesvideos.Api.Repo;
+
+public interface CoursesVideosRepository {
+
+}

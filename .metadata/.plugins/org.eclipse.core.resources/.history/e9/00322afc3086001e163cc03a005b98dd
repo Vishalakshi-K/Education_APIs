@@ -1,0 +1,5 @@
+package com.educationcourses.Api.Repo;
+
+public interface CoursesRepository {
+
+}

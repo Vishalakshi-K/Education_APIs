@@ -1,0 +1,5 @@
+package com.educationcoursescontent.Api.Controller;
+
+public class CoursesContentController {
+
+}
